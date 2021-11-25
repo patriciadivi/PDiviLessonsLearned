@@ -47,3 +47,9 @@ img#minha_foto {
     border-radius: 1.8rem;
 
 }
+
+section ol#licoes_aprendidas {
+    /* border: 2px solid red; */
+    width: 30%;
+    text-align: center;
+}
