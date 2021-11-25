@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
 body {
     /* 1 - Requisito | Alterado cor de fundo do body */
     background-color: rgb(253, 251, 251); 
@@ -9,12 +15,35 @@ header#cabecalho {
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: royalblue;
+
+    padding: 1.8rem 1rem;
+
+    background-color: rgb(147, 125, 224);
 
 }
 
 h1#titulo {
     color: white;
     text-align: center;
+
+}
+
+section#section_img {
+    /* border: 2px solid red; */
+    background-color: rgb(164, 145, 231);
+    width: 300px;
+
+    padding: 30px 10px;
+    margin: 7rem auto 0.8rem;
+
+    border-radius: 0.8rem;
+
+}
+
+img#minha_foto {
+    margin: auto 1.2rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 1.8rem;
 
 }
