@@ -18,6 +18,7 @@ header#cabecalho {
 
     padding: 1.8rem 1rem;
 
+    font-size: 14pt;
     background-color: rgb(147, 125, 224);
 
 }
@@ -49,11 +50,14 @@ img#minha_foto {
 }
 
 nav#link_externo {
+    max-width: 100px;
+    padding: 0.8rem;
+    margin: 0.8rem auto;
+
     background-color: springgreen;
     text-align: center;
+    line-height: 1.6rem;
 
-    padding: 0.8rem;
-    margin: 0.8rem 20rem;
     border-radius: 0.8rem 1.7rem 1.2rem 2rem;
 
 }
@@ -63,6 +67,7 @@ section ol#licoes_aprendidas , ul#licoes_a_aprender{
     
     width: 30%;
     text-align: center;
+    line-height: 1.8rem;
 }
 
 ol , ul {
