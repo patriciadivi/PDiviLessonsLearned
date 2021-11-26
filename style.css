@@ -48,10 +48,26 @@ img#minha_foto {
 
 }
 
-section ol#licoes_aprendidas {
+nav#link_externo {
+    background-color: springgreen;
+    text-align: center;
+
+    padding: 0.8rem;
+    margin: 0.8rem 20rem;
+    border-radius: 0.8rem 1.7rem 1.2rem 2rem;
+
+}
+
+section ol#licoes_aprendidas , ul#licoes_a_aprender{
     /* border: 2px solid red; */
+    
     width: 30%;
     text-align: center;
+}
+ol , ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer#rodape {
