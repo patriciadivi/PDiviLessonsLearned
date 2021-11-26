@@ -64,6 +64,7 @@ section ol#licoes_aprendidas , ul#licoes_a_aprender{
     width: 30%;
     text-align: center;
 }
+
 ol , ul {
     display: flex;
     flex-direction: column;
